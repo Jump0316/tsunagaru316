@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>忙しくても、お金は貯まる。 | 子育て世帯専門マネーコーチ 池尾正樹</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Noto Sans JP', sans-serif;
+            scroll-behavior: smooth;
+            -webkit-text-size-adjust: 100%;
+        }
+        .hero-gradient {
+            background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
+        }
+        .cta-button {
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+        .cta-button:active {
+            transform: scale(0.96);
+        }
+        .line-green {
+            background-color: #06C755;
+        }
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .fade-in {
+            animation: fadeInUp 0.8s ease-out forwards;
+        }
+        .review-card {
+            background: #fff;
+            border-radius: 1.25rem;
+            overflow: hidden;
+            border: 1px solid #fef3c7;
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.04);
+        }
+        .logo-img {
+            width: 36px;
+            height: 36px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 1.5px solid #fbbf24;
+        }
+    </style>
+</head>
+<body class="bg-amber-50 text-amber-950">
+
+    <!-- Header -->
+    <header class="fixed w-full z-50 bg-white/95 backdrop-blur-md border-b border-amber-100 shadow-sm">
+        <div class="container mx-auto px-4 py-2 flex justify-between items-center text-amber-900">
+            <div class="flex items-center space-x-2">
+                <img src="82B087CB-401B-408F-A124-91C9D6A08CF8.PNG" alt="ロゴ" class="logo-img" onerror="this.src='https://via.placeholder.com/100?text=子'">
+                <span class="text-sm md:text-lg font-bold tracking-tighter text-amber-900 text-center">子育て世帯のお金の教室</span>
+            </div>
+            <a href="#contact" class="bg-amber-600 text-white px-4 py-1.5 rounded-full font-bold hover:bg-amber-700 transition text-[11px] md:text-sm text-center">
+                無料相談を予約
+            </a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="pt-24 pb-12 md:pt-40 md:pb-32 hero-gradient text-white overflow-hidden text-center md:text-left relative">
+        <div class="container mx-auto px-4 relative z-10">
+            <div class="flex flex-col md:flex-row items-center gap-8 md:gap-12">
+                <div class="w-full md:w-3/5 order-2 md:order-1">
+                    <div class="mb-4 flex justify-center md:justify-start">
+                        <span class="inline-block bg-white text-amber-700 px-3 py-1 rounded-full font-bold text-[10px] md:text-xs shadow-sm">
+                            【毎月10名限定】忙しい子育て世代の無料個別相談
+                        </span>
+                    </div>
+                    
+                    <h1 class="text-[32px] md:text-6xl font-bold leading-tight mb-8 text-white drop-shadow-md text-center md:text-left text-white">
+                        忙しくても、<br>
+                        お金は貯まる。<br>
+                        <span class="block mt-6 text-[18px] md:text-3xl opacity-95 font-medium tracking-tight text-amber-50 leading-relaxed border-t border-white/20 pt-4 text-white">
+                            家族のための<br class="md:hidden">
+                            「ほったらかし」家計術
+                        </span>
+                    </h1>
+
+                    <p class="text-sm md:text-xl text-amber-50 mb-10 leading-relaxed opacity-95 px-2 md:px-0 font-medium text-center md:text-left">
+                        教育資金、マイホーム、老後。調べる時間がないあなたへ。<br class="hidden md:block text-white text-lg">
+                        現役パパアドバイザーが教える、最短・最速の資産形成プラン。
+                    </p>
+
+                    <div class="flex flex-col gap-6 px-4 md:px-0 md:flex-row items-center justify-center md:justify-start">
+                        <a href="#contact" class="cta-button bg-white text-amber-700 text-center py-4 px-10 rounded-2xl font-bold text-lg shadow-xl w-full md:w-auto">
+                            個別相談を予約する
+                        </a>
+                        <div class="flex flex-col items-center gap-2">
+                            <a href="https://lin.ee/pZshJ4p" target="_blank" class="hover:opacity-90 transition transform hover:scale-105">
+                                <img src="https://scdn.line-apps.com/n/line_add_friends/btn/ja.png" alt="友だち追加" height="44" border="0" class="h-11">
+                            </a>
+                            <span class="text-[10px] text-amber-50 font-bold tracking-wider text-white">LINEでお気軽に相談する</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="w-full md:w-2/5 order-1 md:order-2 flex justify-center fade-in">
+                    <div class="relative w-full max-w-[320px] md:max-w-[450px]">
+                        <div class="rounded-[2.5rem] overflow-hidden shadow-2xl border-4 border-white/30 rotate-2">
+                            <img src="kazoku.jpg" alt="家族の写真" class="w-full h-auto" onerror="this.src='https://via.placeholder.com/500x500?text=kazoku.jpg'">
+                        </div>
+                        <div class="absolute -bottom-6 -left-6 w-1/2 drop-shadow-2xl -rotate-6 hidden md:block">
+                            <img src="82B087CB-401B-408F-A124-91C9D6A08CF8.PNG" alt="子育て世帯のイラスト" class="w-full h-auto" onerror="this.style.display='none'">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Bar -->
+    <div class="bg-white py-6 shadow-sm border-b border-amber-50 text-amber-900">
+        <div class="container mx-auto px-4 flex justify-around items-center text-center">
+            <div>
+                <p class="text-[9px] text-amber-500 font-bold uppercase tracking-widest text-center">Support</p>
+                <p class="text-xl font-bold leading-none mt-1 text-center font-serif text-amber-900">250<span class="text-[10px] ml-0.5 font-normal">世帯突破</span></p>
+            </div>
+            <div class="w-px h-8 bg-amber-100"></div>
+            <div>
+                <p class="text-[9px] text-amber-500 font-bold uppercase tracking-widest text-center">Google Map</p>
+                <p class="text-xl font-bold leading-none mt-1 text-center text-amber-900">5.0<span class="text-[10px] ml-0.5 text-amber-400">★★★★★</span></p>
+            </div>
+            <div class="w-px h-8 bg-amber-100"></div>
+            <div>
+                <p class="text-[9px] text-amber-500 font-bold uppercase tracking-widest text-center">Satisfaction</p>
+                <p class="text-xl font-bold leading-none mt-1 text-center text-amber-900">98.2<span class="text-[10px] ml-0.5 font-normal">%</span></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Concept Section -->
+    <section class="py-20 bg-white overflow-hidden text-amber-900">
+        <div class="container mx-auto px-4">
+            <div class="max-w-5xl mx-auto flex flex-col md:flex-row items-center gap-12 text-center md:text-left">
+                <div class="w-full md:w-1/2">
+                    <div class="inline-block bg-amber-100 text-amber-700 px-4 py-1 rounded-full text-xs font-bold mb-4">私たちの想い</div>
+                    <h2 class="text-2xl md:text-4xl font-bold mb-6 leading-tight text-amber-900">
+                        「今の楽しみ」も、<br>
+                        「将来の安心」も。<br>
+                        どっちも諦めない家計管理。
+                    </h2>
+                    <p class="text-amber-800 leading-relaxed mb-6 text-sm md:text-base text-center md:text-left px-4">
+                        毎日仕事に育児に精一杯で、将来のことを考える余裕がない…。そんなパパ・ママのために、一度設定すれば自動でお金が貯まる「仕組み」を作ります。浮いた時間は、家族の笑顔のために使ってください。
+                    </p>
+                    <div class="flex items-center justify-center md:justify-start gap-2 text-amber-600 font-bold text-sm">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                        </svg>
+                        それが私の提供する「タイパ術」です。
+                    </div>
+                </div>
+                <div class="w-full md:w-1/2 flex justify-center text-amber-900">
+                    <div class="bg-amber-100 p-8 rounded-[3rem] relative">
+                        <div class="absolute -top-4 -left-4 bg-white p-3 rounded-2xl shadow-md rotate-[-5deg] z-10 text-amber-600 font-bold text-xs shadow-sm text-center">
+                            家計も気持ちも豊かに
+                        </div>
+                        <div class="w-full aspect-square bg-white rounded-[2.5rem] shadow-inner overflow-hidden flex items-center justify-center">
+                            <img src="kosodate.jpg" alt="子育て・家計イメージ" class="w-full h-full object-cover" onerror="this.src='https://via.placeholder.com/500x500?text=kosodate.jpg'">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Problems Section -->
+    <section class="py-20 bg-amber-50/30 text-amber-900">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-xl md:text-3xl font-bold mb-12 text-amber-900 leading-snug">
+                その「お金の悩み」<br>
+                プロと一緒に整理しませんか？
+            </h2>
+            <div class="space-y-4 max-w-lg mx-auto text-left">
+                <div class="p-6 bg-white rounded-2xl border border-amber-100 flex items-start gap-4 shadow-sm text-amber-900">
+                    <div class="w-10 h-10 bg-amber-100 rounded-full flex-shrink-0 flex items-center justify-center text-amber-600 font-bold shadow-inner text-sm font-serif">01</div>
+                    <div>
+                        <p class="font-bold mb-1 text-amber-900">情報が多すぎて選べない</p>
+                        <p class="text-[13px] text-amber-800 leading-relaxed text-sm">NISA、iDeCo、保険。結局わが家にはどれがベスト？調べる時間がない。</p>
+                    </div>
+                </div>
+                <div class="p-6 bg-white rounded-2xl border border-amber-100 flex items-start gap-4 shadow-sm text-amber-900">
+                    <div class="w-10 h-10 bg-amber-100 rounded-full flex-shrink-0 flex items-center justify-center text-amber-600 font-bold shadow-inner text-sm font-serif">02</div>
+                    <div>
+                        <p class="font-bold mb-1 text-amber-900">教育資金がいくらか不安</p>
+                        <p class="text-[13px] text-amber-800 leading-relaxed text-sm">大学費用、習い事。将来の学費がいくら必要になるか分からず漠然と不安。</p>
+                    </div>
+                </div>
+                <div class="p-6 bg-white rounded-2xl border border-amber-100 flex items-start gap-4 shadow-sm text-amber-900">
+                    <div class="w-10 h-10 bg-amber-100 rounded-full flex-shrink-0 flex items-center justify-center text-amber-600 font-bold shadow-inner text-sm font-serif">03</div>
+                    <div>
+                        <p class="font-bold mb-1 text-amber-900">家計管理が続かない</p>
+                        <p class="text-[13px] text-amber-800 leading-relaxed text-sm">共働きで収入はあるはずなのに、いつの間にかお金が消えていく…。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="py-20 bg-amber-50/50 text-center text-amber-900">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-xl md:text-4xl font-bold mb-4 leading-snug">Googleマップでも<br>高評価をいただいています</h2>
+            <p class="text-sm text-amber-700 mb-12">（250世帯以上のサポート実績より抜粋）</p>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
+                <div class="review-card">
+                    <img src="IMG_3794.jpg" alt="口コミ1" class="w-full h-auto" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+                    <div class="hidden p-6 text-left text-xs text-amber-800 leading-relaxed text-left text-left">
+                        <p class="font-bold text-amber-600 mb-2 text-sm text-left text-left">★★★★★ 1年前</p>
+                        池尾さんが担当していただきました。保険の仕組みはもちろんですが、1番価値を感じたのはまず私のライフプランを考えて保険の選択肢を提案していただいたことです。
+                    </div>
+                </div>
+                <div class="review-card">
+                    <img src="IMG_3795.jpg" alt="口コミ2" class="w-full h-auto" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+                    <div class="hidden p-6 text-left text-xs text-amber-800 leading-relaxed text-left text-left text-left">
+                        <p class="font-bold text-amber-600 mb-2 text-sm text-left text-left text-left">★★★★★ 11か月前</p>
+                        自分の今後のライフスタイルを確認していただき、将来のことを考えるきっかけをくれました。
+                    </div>
+                </div>
+                <div class="review-card">
+                    <img src="IMG_3796.jpg" alt="口コミ3" class="w-full h-auto" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+                    <div class="hidden p-6 text-left text-xs text-amber-800 leading-relaxed text-left text-left text-left text-left">
+                        <p class="font-bold text-amber-600 mb-2 text-sm text-left text-left text-left">★★★★★ 1年前</p>
+                        店舗に合った最善なプランを何度も模索してくださり、お客さまファーストで対応してくれました。
+                    </div>
+                </div>
+                <div class="review-card">
+                    <img src="IMG_3797.jpg" alt="口コミ4" class="w-full h-auto" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+                    <div class="hidden p-6 text-left text-xs text-amber-800 leading-relaxed text-left text-left text-left text-left text-left text-left">
+                        <p class="font-bold text-amber-600 mb-2 text-sm text-left text-left text-left text-left text-left">★★★★★ 11か月前</p>
+                        もしもの時の事を想定して親身になって話してくれました。満足して選ぶ事が出来ました。
+                    </div>
+                </div>
+            </div>
+            <p class="mt-8 text-amber-700 font-bold italic text-sm px-4">「もっと早く相談すれば良かった」という感謝のお声を多数いただいています</p>
+        </div>
+    </section>
+
+    <!-- Profile Section -->
+    <section class="py-20 bg-white text-amber-900">
+        <div class="container mx-auto px-4 text-center md:text-left">
+            <div class="max-w-4xl mx-auto bg-amber-50 rounded-3xl overflow-hidden shadow-sm border border-amber-100">
+                <div class="flex flex-col md:flex-row text-amber-900">
+                    <div class="md:w-2/5 flex items-center justify-center p-8 bg-white border-b md:border-b-0 md:border-r border-amber-100">
+                        <img src="ikeomasakiporo.jpg" alt="池尾 正樹" class="w-48 md:w-full h-auto drop-shadow-xl rounded-2xl shadow-xl" onerror="this.src='https://via.placeholder.com/350x500?text=ikeomasakiporo.jpg'">
+                    </div>
+                    <div class="p-6 md:p-10 md:w-3/5">
+                        <h2 class="text-xs font-bold text-amber-600 mb-1 uppercase tracking-widest font-serif text-center md:text-left text-amber-900 text-center">Coach Profile</h2>
+                        <h3 class="text-2xl font-bold mb-4 text-amber-900 tracking-tighter text-center md:text-left text-center">池尾 正樹 <span class="text-sm font-normal text-amber-700 ml-1 italic font-serif">Ikeo Masaki</span></h3>
+                        
+                        <div class="bg-white p-5 rounded-2xl mb-6 italic text-amber-800 text-[13px] leading-relaxed border-l-4 border-amber-500 shadow-sm text-left text-amber-900 text-left">
+                            私自身、かつては将来への不安を感じてFPに相談した一人でした。ライフプランを明確にすることで大きな安心感を得られ、同時に「知らずに損をしていたこと」の多さに驚きました。結婚をきっかけに相談して本当に良かった。その感動が、私の原点です。
+                        </div>
+
+                        <p class="text-amber-800/80 mb-6 leading-relaxed text-[14px] text-left text-amber-900">
+                            2児の父。現役パパアドバイザー。「忙しい現役世代が無理なく続けられる資産形成」を研究。「保険を売る前に、まずライフプランを」という信念を持ち、お客様一人ひとりに合わせた最善策を模索するスタイルに定評がある。
+                        </p>
+                        
+                        <div class="space-y-3 text-[14px] text-left text-amber-900">
+                            <div class="flex items-start">
+                                <span class="w-5 h-5 mr-3 text-white bg-amber-600 rounded-full flex items-center justify-center text-[10px] font-bold flex-shrink-0 mt-0.5 shadow-sm text-center">✓</span>
+                                <p class="font-bold text-amber-900">累計250世帯の子育てマネープランを作成</p>
+                            </div>
+                            <div class="flex items-start">
+                                <span class="w-5 h-5 mr-3 text-white bg-amber-600 rounded-full flex items-center justify-center text-[10px] font-bold flex-shrink-0 mt-0.5 shadow-sm text-center">✓</span>
+                                <p class="font-bold text-sm text-amber-900">Google評価★5.0 継続サポートを重視</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="py-20 bg-amber-50/30 text-amber-900 text-center">
+        <div class="container mx-auto px-4 max-w-2xl">
+            <h2 class="text-xl md:text-2xl font-bold mb-8 text-center text-amber-900 text-amber-900">よくあるご質問</h2>
+            <div class="space-y-3 text-[13px] text-left">
+                <details class="group bg-white rounded-xl border border-amber-100 shadow-sm overflow-hidden" open>
+                    <summary class="flex justify-between items-center p-5 cursor-pointer font-bold list-none text-amber-900">
+                        <span>子供が近くで騒がしくても大丈夫？</span>
+                        <span class="transition group-open:rotate-180 text-amber-400">▼</span>
+                    </summary>
+                    <div class="px-5 pb-5 text-amber-800/80 leading-relaxed text-sm text-left">
+                        もちろんです！泣き声や途中離席も大歓迎。私自身も2児のパパですので、子育て世代の事情を深く理解しています。安心してお話しください。
+                    </div>
+                </details>
+                <details class="group bg-white rounded-xl border border-amber-100 shadow-sm overflow-hidden">
+                    <summary class="flex justify-between items-center p-5 cursor-pointer font-bold list-none text-amber-900 text-left">
+                        <span>「顔出しなし」でも本当にいい？</span>
+                        <span class="transition group-open:rotate-180 text-amber-400">▼</span>
+                    </summary>
+                    <div class="px-5 pb-5 text-amber-800/80 leading-relaxed text-sm text-sm text-left">
+                        はい、全く問題ありません！カメラOFFの音声のみ相談も大歓迎です。「部屋が散らかっている」「スッピンだから」といった理由で相談をためらわないでください。
+                    </div>
+                </details>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-white text-amber-900 border-t border-amber-100 text-center px-4">
+        <div class="container mx-auto max-w-xl text-amber-900">
+            <h2 class="text-2xl font-bold mb-4 text-center text-amber-900">無料個別相談 お申込み</h2>
+            <p class="text-amber-700/70 mb-10 text-xs leading-relaxed px-4 text-center font-medium">
+                24時間受付中。あなたに合わせた<br>
+                最短ルートのマネープランを一緒に作りましょう。
+            </p>
+
+            <!-- LINE CTA -->
+            <div class="bg-amber-50 border-2 border-amber-200 rounded-3xl p-8 mb-12 shadow-sm text-center text-amber-900">
+                <h3 class="text-lg font-bold mb-3 flex items-center justify-center gap-2">
+                    <svg class="w-5 h-5 fill-[#06C755]" viewBox="0 0 24 24"><path d="M24 10.304c0-5.369-5.383-9.738-12-9.738-6.616 0-12 4.369-12 9.738 0 4.814 4.269 8.846 10.036 9.608.391.084.922.258 1.183.592.227.289.149.746.073 1.036l-.318 1.914c-.046.282-.214 1.1-.014 1.151.2.051.899-.406 1.258-.755 0 0 1.899-1.847 2.597-2.529.544-.513 1.066-1.127 1.488-1.761 4.704-1.284 7.699-4.878 7.699-8.496zm-14.288 3.011l-1.347-1.455-1.778 1.455-.385-.353 2.163-1.77 1.347 1.455 1.778-1.455.385.353-2.163 1.77zm3.031 0h-.513v-3.125h.513v3.125zm2.533-1.64h-1.347v1.64h-.513v-3.125h.513v.972h1.347v-.972h.513v3.125h-.513v-1.64zm3.031 1.64h-1.859v-3.125h1.859v.513h-1.347v.77h1.347v.513h-1.347v.816h1.347v.513z"/></svg>
+                    LINEで今すぐ相談・予約
+                </h3>
+                <p class="text-[11px] text-amber-800 mb-5 leading-relaxed font-medium text-center">
+                    友だち追加後、メッセージを送るだけで予約スタート。<br>
+                    フォーム入力よりずっと手軽です。
+                </p>
+                <div class="flex justify-center mb-6">
+                    <a href="https://lin.ee/pZshJ4p" target="_blank">
+                        <img src="https://scdn.line-apps.com/n/line_add_friends/btn/ja.png" alt="友だち追加" height="44" border="0" class="hover:opacity-90 transition transform hover:scale-105 h-11 shadow-sm rounded-lg text-center">
+                    </a>
+                </div>
+                <p class="text-[10px] text-amber-500 mt-2 font-bold tracking-tight uppercase text-center">
+                    【特典】「家計タイパ術ガイド」プレゼント！
+                </p>
+            </div>
+
+            <div class="relative mb-10 text-center">
+                <hr class="border-amber-100">
+                <span class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-white px-4 text-[10px] text-amber-400 font-bold uppercase tracking-widest text-center text-center">or contact form</span>
+            </div>
+            
+            <!-- メールフォーム -->
+            <form id="inquiryForm" action="https://api.staticforms.xyz/submit" method="POST" class="text-left space-y-4 text-amber-900">
+                <input type="hidden" name="accessKey" value="8f12a392-f0ba-40a1-a67b-11721595155c">
+                <input type="hidden" name="replyTo" value="@">
+                <input type="hidden" name="subject" value="【無料相談予約】子育て世帯のお金の教室">
+                <input type="text" name="honeypot" style="display:none">
+                
+                <div>
+                    <label class="block text-xs font-bold mb-1 ml-1 text-left text-amber-900">お名前</label>
+                    <input type="text" name="name" placeholder="例：山田 花子" class="w-full px-5 py-4 rounded-2xl border border-amber-200 focus:ring-2 focus:ring-amber-500 focus:outline-none text-sm shadow-sm text-amber-900" required>
+                </div>
+                <div>
+                    <label class="block text-xs font-bold mb-1 ml-1 text-left text-amber-900">メールアドレス</label>
+                    <input type="email" name="email" placeholder="example@mail.com" class="w-full px-5 py-4 rounded-2xl border border-amber-200 focus:ring-2 focus:ring-amber-500 focus:outline-none text-sm shadow-sm text-amber-900" required>
+                </div>
+                <div>
+                    <label class="block text-xs font-bold mb-1 ml-1 text-left text-amber-900">メッセージ（任意）</label>
+                    <textarea name="message" rows="4" placeholder="ご相談内容（例：教育資金について知りたい）" class="w-full px-5 py-4 rounded-2xl border border-amber-200 focus:ring-2 focus:ring-amber-500 focus:outline-none text-sm shadow-sm text-amber-900"></textarea>
+                </div>
+
+                <button type="submit" id="submitBtn" class="w-full bg-amber-600 text-white py-4 rounded-2xl font-bold text-lg shadow-lg hover:bg-amber-700 active:scale-95 transition mt-4 text-center">
+                    予約内容を送信
+                </button>
+            </form>
+            
+            <!-- 成功メッセージ -->
+            <div id="successMessage" class="hidden py-12 bg-amber-50 text-amber-700 rounded-3xl mt-8 border border-amber-100 shadow-inner text-center">
+                <p class="text-lg font-bold text-amber-800 text-center">お申し込みありがとうございます！</p>
+                <p class="mt-2 text-xs text-amber-700 text-center text-center">24時間以内に池尾より連絡を差し上げます。</p>
+            </div>
+            
+            <!-- 失敗メッセージ -->
+            <div id="errorMessage" class="hidden py-4 text-red-600 text-sm mt-4 text-center bg-red-50 rounded-xl p-4">
+                <p class="font-bold">送信中にエラーが発生しました。</p>
+                <p class="text-[11px] mt-1 text-left">
+                    <b>考えられる原因：</b><br>
+                    1. 管理者側のメール認証（初回のみ）が完了していない。<br>
+                    2. 入力内容に不備がある。<br><br>
+                    お手数ですが、池尾さんのLINEから直接ご連絡いただけますでしょうか。
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-12 bg-amber-950 text-amber-200/40 text-center px-4">
+        <div class="flex items-center justify-center space-x-2 text-white font-bold mb-4 text-center">
+            <img src="82B087CB-401B-408F-A124-91C9D6A08CF8.PNG" alt="ロゴ" class="w-8 h-8 object-cover rounded-full shadow-inner" onerror="this.src='https://via.placeholder.com/100?text=子'">
+            <span class="text-sm tracking-wider text-center">子育て世帯のお金の教室</span>
+        </div>
+        <p class="text-[10px] opacity-80 leading-relaxed mb-6 text-center text-amber-200">特定の金融機関に属さない中立なアドバイスで、<br>家族のゆとりある将来をサポートします。</p>
+        <p class="text-[9px] text-center text-amber-200">© 2026 Masaki Ikeo. All Rights Reserved.</p>
+    </footer>
+
+    <!-- Mobile Floating CTA -->
+    <div class="md:hidden fixed bottom-6 left-0 w-full px-4 z-40 flex gap-2">
+        <a href="https://lin.ee/pZshJ4p" target="_blank" class="flex-1 bg-[#06C755] text-white text-center py-4 rounded-2xl font-bold shadow-2xl border-2 border-white flex items-center justify-center gap-1 text-[13px]">
+            <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M24 10.304c0-5.369-5.383-9.738-12-9.738-6.616 0-12 4.369-12 9.738 0 4.814 4.269 8.846 10.036 9.608.391.084.922.258 1.183.592.227.289.149.746.073 1.036l-.318 1.914c-.046.282-.214 1.1-.014 1.151.2.051.899-.406 1.258-.755 0 0 1.899-1.847 2.597-2.529.544-.513 1.066-1.127 1.488-1.761 4.704-1.284 7.699-4.878 7.699-8.496zm-14.288 3.011l-1.347-1.455-1.778 1.455-.385-.353 2.163-1.77 1.347 1.455 1.778-1.455.385.353-2.163 1.77zm3.031 0h-.513v-3.125h.513v3.125zm2.533-1.64h-1.347v1.64h-.513v-3.125h.513v.972h1.347v-.972h.513v3.125h-.513v-1.64zm3.031 1.64h-1.859v-3.125h1.859v.513h-1.347v.77h1.347v.513h-1.347v.816h1.347v.513z"/></svg>
+            LINE相談
+        </a>
+        <a href="#contact" class="flex-[1.4] bg-amber-500 text-white text-center py-4 rounded-2xl font-bold shadow-2xl border-2 border-white text-[13px]">
+            無料相談を予約
+        </a>
+    </div>
+
+    <script>
+        const form = document.getElementById('inquiryForm');
+        const successMsg = document.getElementById('successMessage');
+        const errorMsg = document.getElementById('errorMessage');
+        const submitBtn = document.getElementById('submitBtn');
+
+        form.addEventListener('submit', async function(e) {
+            e.preventDefault();
+            
+            // 状態リセット
+            submitBtn.disabled = true;
+            submitBtn.innerText = '送信中...';
+            errorMsg.classList.add('hidden');
+            successMsg.classList.add('hidden');
+
+            // フォームデータをオブジェクトに変換
+            const formData = new FormData(form);
+            const data = {};
+            formData.forEach((value, key) => {
+                data[key] = value;
+            });
+
+            try {
+                const response = await fetch(form.action, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                        'Accept': 'application/json'
+                    },
+                    body: JSON.stringify(data)
+                });
+
+                // レスポンスをパース
+                let result;
+                try {
+                    result = await response.json();
+                } catch (jsonErr) {
+                    result = { success: response.ok };
+                }
+
+                if (response.ok && result.success) {
+                    // 成功
+                    form.classList.add('hidden');
+                    successMsg.classList.remove('hidden');
+                    successMsg.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                } else {
+                    // サーバー側エラー
+                    console.error('StaticForms Error Response:', result);
+                    throw new Error(result.message || 'Submission failed');
+                }
+            } catch (error) {
+                // 通信エラーまたはロジックエラー
+                console.error('Final Submission Error:', error);
+                errorMsg.classList.remove('hidden');
+                submitBtn.disabled = false;
+                submitBtn.innerText = '予約内容を送信';
+                errorMsg.scrollIntoView({ behavior: 'smooth', block: 'center' });
+            }
+        });
+
+        // 内部リンクスムーズスクロール
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                const href = this.getAttribute('href');
+                if (href.startsWith('#')) {
+                    e.preventDefault();
+                    document.querySelector(href).scrollIntoView({ behavior: 'smooth' });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
